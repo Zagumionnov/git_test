@@ -1,7 +1,7 @@
 from random import randint
 
 m = int(input("Введите размер матрицы: "))
-lst1 = [[randint(111111, 50) for j in range(m)] for i in range(m)]
+lst1 = [[randint(1111111, 50) for j in range(m)] for i in range(m)]
 
 
 def sort_lst(matrix):
